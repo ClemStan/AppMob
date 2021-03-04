@@ -8,12 +8,12 @@ import android.view.ViewGroup;
 import androidx.fragment.app.Fragment;
 
 
-public class AideAli extends Fragment {
+public class Stress extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_aide_ali, container, false);
+        return inflater.inflate(R.layout.fragment_stress, container, false);
     }
 }
