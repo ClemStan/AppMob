@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,11 +8,57 @@
     >
 
     <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="68dp"
+        android:text="L’aide alimentaire permet d’obtenir des produits gratuitement ou à coût réduit. Il en existe plusieurs formes et il est possible de bénéficier de cette aide de plusieurs façons, sous certaines conditions."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Aides"
+        android:text="Aides alimentaires"
         android:textSize="30sp"
-        android:layout_centerInParent="true"/>
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"/>
 
-</FrameLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="10dp"
+        android:text="Des aides multiples au Secours Populaire"
+        android:textAlignment="viewStart"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="228dp"
+        android:text="Les aides du Secours populaire sont accessibles pour tou·te·s les étudiant·e·s quel que soit leur statut (bousiers·ières, ou non). Pour y accéder il faut prendre rendez-vous dans une des antennes étudiantes. Un bénévole vous recevra et en fonction de votre situation et de vos besoins pourra vous donner accès à un ou plusieurs de ces dispositifs."
+        android:textSize="15sp" />
+
+
+
+</RelativeLayout>
